@@ -1,4 +1,4 @@
-# ReactExpress
+# React JS and Express on backend
 A Template Starter for React and Express(Node.js) Web Application
 
 To Start the all application concurrently
