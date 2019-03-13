@@ -1,0 +1,35 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "A template starter for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "client-install" : "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client" : "npm start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wembomulumba/ReactExpress.git"
+  },
+  "keywords": [
+    "React",
+    "Js"
+  ],
+  "author": "Wembo mulumba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wembomulumba/ReactExpress/issues"
+  },
+  "homepage": "https://github.com/wembomulumba/ReactExpress#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
